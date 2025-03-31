@@ -1,0 +1,55 @@
+
+#menuContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    background-color: grey;
+}
+
+#drinkTitle,
+#foodTitle,
+#dessertTitle {
+    color: rgb(2, 81, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    border-bottom: 5px solid rgb(2, 81, 0);
+    padding-bottom: 10px;
+}
+
+#drinkContainer,
+#foodContainer,
+#dessertContainer {
+    background-color: rgb(210, 235, 216);
+    border: 1px solid green;
+    padding: 30px;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#coffeeContainer,
+#beerContainer,
+#sodaContainer,
+#friedChickenContainer,
+#wingsContainer,
+#burgerContainer,
+#icecreamContainer,
+#cookieContainer,
+#cakeContainer {
+    border: 5px solid rgb(2, 81, 0);
+    border-radius: 10px;
+    height: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 20px;
+}
+
+#coffeeContainer,
+#friedChickenContainer,
+#icecreamContainer {
+    margin-top: 50px;
+}

@@ -1,0 +1,27 @@
+
+
+#contentContainer {
+    display: flex;
+    gap: 20px;
+    height: 500px;
+    flex-direction: column;
+    margin: 50px;
+    border: 5px solid rgb(2,81,0);
+    border-radius: 10px;
+    background-color: rgb(210, 235, 216);
+    padding: 20px;
+}
+
+#addressContainer,
+#phoneContainer,
+#contactTitle {
+    display: flex;
+    justify-content: center;
+    color: rgb(2,81,0);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#contactTitle {
+    border-bottom: 5px solid black;
+}
